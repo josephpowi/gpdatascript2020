@@ -1,17 +1,14 @@
-# gpdatascript2020
-data processing code for genomepaint
-
-## scripts used to generate SNVindels VCF file and other types of variant including SV, CNV, LOH, ITD and FUSION. 
+# Scripts for compiling the somatic alterations of the pediatric cancer dataset (v1) in GenomePaint
 
 
 ## Pediatric_SNVindel_vcf_generator
 
-scripts used to generate SNVindels VCF file 
+Scripts used to generate the VCF file 
 
 Pediatric_SNVindel_vcf_generator.ipynb - Pipeline to generate VCF file
 
 ## Pediatric_svcnv_generator
 
-scripts used to generate svcnv file (the file including SV, CNV, LOH, ITD and FUSION.)
+Scripts used to generate the "svcnv" file, including fusion, SV, CNV, LOH, ITD.
 
 Pediatric_svcnv_generator.ipynb - Pipeline to generate svcnv file
